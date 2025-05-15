@@ -1,0 +1,531 @@
+# 2025-05-13 12:31:23 -04: Reading parameter file '/home/dianag/PruebasPablo/irace-independent-executions/ACOTSP/Scenarios/E2-BL-SR/Runs/E2-BL-SR_seed_909090909/parameters.txt'.
+# 2025-05-13 12:31:23 -04: 1 expression(s) specifying forbidden configurations read.
+# 2025-05-13 12:31:23 -04: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 5
+# minNbSurvival: 5
+# nbParameters: 11
+# seed: 909090909
+# confidence level: 0.95
+# budget: 2750
+# mu: 5
+# deterministic: FALSE
+
+# 2025-05-13 12:31:23 -04: Iteration 1 of 5
+# experimentsUsed: 0
+# remainingBudget: 2750
+# currentBudget: 550
+# nbConfigurations: 91
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         91|          5|     32903981.00|         91|00:02:24|   NA|  NA|    NA|
+|x|          2|         91|          5|     32753891.50|        182|00:02:25|+0.99|0.99|0.0017|
+|x|          3|         91|          5|     32694157.67|        273|00:02:29|+0.98|0.99|0.0016|
+|x|          4|         91|          5|     32663897.25|        364|00:02:22|+0.98|0.98|0.0014|
+|-|          5|          3|          5|     32679073.60|        455|00:02:25|+0.80|0.84|0.2671|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           5    mean value:      32679073.60
+Description of the best-so-far configuration:
+  .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+5    5       acs           3  4.33  1.7 0.62   29 0.56      NA          NA   10
+  dlb .PARENT.
+5   0       NA
+
+# 2025-05-13 12:43:31 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls dlb
+5        acs           3  4.33 1.70 0.62   29 0.56      NA          NA   10   0
+68       ras           3  3.66 4.43 0.13   88   NA       7          NA    7   1
+56       ras           3  3.94 2.79 0.85   57   NA      78          NA   37   1
+# 2025-05-13 12:43:31 -04: Iteration 2 of 5
+# experimentsUsed: 455
+# remainingBudget: 2295
+# currentBudget: 573
+# nbConfigurations: 84
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          6|         84|        122|     32546704.00|         84|00:02:04|   NA|  NA|    NA|
+|x|          4|         84|        161|     32527677.00|        165|00:02:03|+0.94|0.97|0.0025|
+|x|          1|         84|        161|     32642376.33|        246|00:01:58|+0.95|0.97|0.0024|
+|x|          2|         84|        161|     32635155.50|        327|00:02:00|+0.95|0.96|0.0028|
+|-|          5|          8|        161|     32655041.80|        408|00:01:57|+0.42|0.54|0.6559|
+|-|          3|          1|        161|     32633340.17|        413|00:00:10|   NA|  NA|    NA|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         161    mean value:      32633340.17
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants  q0 rasrank elitistants
+161  161       acs           3  4.35 7.77 0.71   74 0.6      NA          NA
+    nnls dlb .PARENT.
+161   11   1       68
+
+# 2025-05-13 12:53:46 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants  q0 rasrank elitistants nnls dlb
+161       acs           3  4.35 7.77 0.71   74 0.6      NA          NA   11   1
+# 2025-05-13 12:53:46 -04: Iteration 3 of 5
+# experimentsUsed: 868
+# remainingBudget: 1882
+# currentBudget: 627
+# nbConfigurations: 79
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          7|         79|        236|     32191301.00|         79|00:01:49|   NA|  NA|    NA|
+|x|          5|         79|        210|     32488821.00|        157|00:01:48|+0.94|0.97|0.0062|
+|x|          4|         79|        210|     32457754.33|        235|00:01:49|+0.94|0.96|0.0053|
+|x|          6|         79|        210|     32465911.00|        313|00:01:49|+0.94|0.95|0.0050|
+|-|          2|          8|        210|     32494910.80|        391|00:01:49|+0.07|0.26|0.8488|
+|=|          3|          8|        210|     32504160.83|        398|00:00:10|+0.04|0.20|0.8669|
+|=|          1|          8|        210|     32551517.57|        405|00:00:10|+0.05|0.19|0.8616|
+|=|          8|          8|        210|     32556952.12|        413|00:00:10|+0.13|0.24|0.7958|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         210    mean value:      32556952.12
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+210  210       acs           3   3.7 6.37 0.59   66 0.17      NA          NA
+    nnls dlb .PARENT.
+210   16   1      161
+
+# 2025-05-13 13:03:25 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+195       acs           3  3.81 7.66 0.77   65 0.88      NA          NA   18
+193       acs           3  2.12 5.43 0.66   48 0.23      NA          NA   10
+161       acs           3  4.35 7.77 0.71   74 0.60      NA          NA   11
+236       acs           3  4.86 8.23 0.86   61 0.37      NA          NA   13
+    dlb
+210   1
+195   1
+193   1
+161   1
+236   1
+# 2025-05-13 13:03:25 -04: Iteration 4 of 5
+# experimentsUsed: 1281
+# remainingBudget: 1469
+# currentBudget: 734
+# nbConfigurations: 86
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          9|         86|        324|     32672640.00|         86|00:01:56|   NA|  NA|    NA|
+|x|          8|         86|        324|     32642441.50|        167|00:01:54|+0.92|0.96|0.0028|
+|x|          7|         86|        302|     32525436.67|        248|00:01:54|+0.90|0.93|0.0047|
+|x|          4|         86|        210|     32496264.25|        329|00:01:54|+0.88|0.91|0.0045|
+|-|          1|         14|        210|     32564143.00|        410|00:01:54|-0.06|0.15|0.9835|
+|=|          6|         14|        210|     32551849.33|        419|00:00:20|-0.00|0.16|0.9338|
+|=|          5|         14|        322|     32576292.00|        428|00:00:20|+0.02|0.16|0.9256|
+|=|          2|         14|        322|     32580506.12|        437|00:00:20|+0.05|0.17|0.9083|
+|=|          3|         14|        322|     32569622.44|        446|00:00:20|+0.07|0.17|0.8839|
+|-|         10|          6|        322|     32596155.40|        460|00:00:21|-0.02|0.08|0.8644|
+|=|         11|          6|        322|     32597485.64|        466|00:00:10|-0.03|0.06|0.8759|
+|=|         12|          6|        322|     32605009.00|        472|00:00:10|+0.01|0.09|0.8542|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         322    mean value:      32605009.00
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+322  322       acs           3  4.55 6.26 0.68   69 0.09      NA          NA
+    nnls dlb .PARENT.
+322   17   1      210
+
+# 2025-05-13 13:15:05 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+322       acs           3  4.55 6.26 0.68   69 0.09      NA          NA   17
+317       acs           3  4.00 5.30 0.49   65 0.39      NA          NA   12
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+277       acs           3  3.86 4.87 0.68   70 0.28      NA          NA   21
+329       acs           3  2.39 4.95 0.41   56 0.34      NA          NA   17
+    dlb
+322   1
+317   1
+210   1
+277   1
+329   1
+# 2025-05-13 13:15:05 -04: Iteration 5 of 5
+# experimentsUsed: 1753
+# remainingBudget: 997
+# currentBudget: 997
+# nbConfigurations: 81
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         13|         81|        317|     32360613.00|         81|00:01:54|   NA|  NA|    NA|
+|x|          3|         81|        317|     32412805.50|        157|00:01:44|+0.69|0.84|0.1333|
+|x|         11|         81|        317|     32488220.33|        233|00:01:44|+0.70|0.80|0.1243|
+|x|         10|         81|        317|     32563574.50|        309|00:01:44|+0.69|0.77|0.1273|
+|-|          4|         22|        317|     32537091.80|        385|00:01:44|-0.06|0.15|1.0102|
+|=|          7|         22|        317|     32491146.50|        402|00:00:30|+0.01|0.17|0.9689|
+|=|          2|         22|        317|     32505554.43|        419|00:00:30|+0.02|0.16|0.9512|
+|=|          5|         22|        317|     32529639.75|        436|00:00:31|+0.03|0.15|0.9377|
+|=|          6|         22|        317|     32530534.78|        453|00:00:31|+0.02|0.13|0.9392|
+|=|         12|         22|        317|     32547530.50|        470|00:00:31|+0.03|0.13|0.9442|
+|=|          9|         22|        322|     32573341.18|        487|00:00:31|+0.03|0.11|0.9491|
+|=|          1|         22|        322|     32590442.00|        504|00:00:31|+0.04|0.12|0.9405|
+|=|          8|         22|        322|     32595603.77|        521|00:00:31|+0.04|0.12|0.9378|
+|=|         14|         22|        317|     32618552.36|        543|00:00:31|+0.03|0.10|0.9450|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         317    mean value:      32618552.36
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+317  317       acs           3     4  5.3 0.49   65 0.39      NA          NA
+    nnls dlb .PARENT.
+317   12   1      210
+
+# 2025-05-13 13:28:38 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+317       acs           3  4.00 5.30 0.49   65 0.39      NA          NA   12
+322       acs           3  4.55 6.26 0.68   69 0.09      NA          NA   17
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+365       acs           3  3.77 4.77 0.47   66 0.33      NA          NA   11
+277       acs           3  3.86 4.87 0.68   70 0.28      NA          NA   21
+    dlb
+317   1
+322   1
+210   1
+365   1
+277   1
+# 2025-05-13 13:28:38 -04: Iteration 6 of 6
+# experimentsUsed: 2296
+# remainingBudget: 454
+# currentBudget: 454
+# nbConfigurations: 34
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         15|         34|        418|     32761474.00|         34|00:00:52|   NA|  NA|    NA|
+|x|         12|         34|        418|     32713094.00|         63|00:00:41|+0.45|0.72|0.1931|
+|x|          9|         34|        322|     32724358.00|         92|00:00:41|+0.39|0.59|0.2620|
+|x|         10|         34|        322|     32752006.50|        121|00:00:41|+0.41|0.56|0.2427|
+|-|          3|         14|        322|     32698115.80|        150|00:00:41|-0.09|0.13|1.0331|
+|=|         11|         14|        322|     32683561.17|        159|00:00:20|-0.04|0.13|0.9846|
+|=|          8|         14|        322|     32679844.57|        168|00:00:20|-0.01|0.13|0.9572|
+|=|          5|         14|        322|     32686032.00|        177|00:00:20|-0.02|0.11|0.9654|
+|=|         13|         14|        317|     32652014.11|        186|00:00:20|-0.01|0.11|0.9472|
+|=|         14|         14|        317|     32678977.60|        195|00:00:20|-0.04|0.07|0.9661|
+|=|          6|         14|        317|     32666133.73|        204|00:00:20|-0.02|0.07|0.9446|
+|=|          7|         14|        317|     32632407.58|        213|00:00:20|-0.01|0.08|0.9350|
+|=|          1|         14|        317|     32647944.31|        222|00:00:20|+0.00|0.08|0.9281|
+|=|          4|         14|        317|     32632459.79|        231|00:00:20|+0.02|0.09|0.9053|
+|=|          2|         14|        317|     32629762.60|        240|00:00:20|+0.02|0.09|0.9050|
+|=|         16|         14|        317|     32640296.06|        254|00:00:21|+0.01|0.07|0.9201|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         317    mean value:      32640296.06
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+317  317       acs           3     4  5.3 0.49   65 0.39      NA          NA
+    nnls dlb .PARENT.
+317   12   1      210
+
+# 2025-05-13 13:36:06 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+317       acs           3  4.00 5.30 0.49   65 0.39      NA          NA   12
+410       acs           3  4.11 5.05 0.46   64 0.13      NA          NA   13
+424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA   12
+322       acs           3  4.55 6.26 0.68   69 0.09      NA          NA   17
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+    dlb
+317   1
+410   1
+424   1
+322   1
+210   1
+# 2025-05-13 13:36:06 -04: Iteration 7 of 7
+# experimentsUsed: 2550
+# remainingBudget: 200
+# currentBudget: 200
+# nbConfigurations: 16
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         17|         16|        424|     32433321.00|         16|00:00:21|   NA|  NA|    NA|
+|x|         11|         16|        210|     32526985.50|         27|00:00:20|+0.10|0.55|0.6373|
+|x|         15|         16|        210|     32609826.33|         38|00:00:20|+0.28|0.52|0.4515|
+|x|          6|         16|        210|     32579965.00|         49|00:00:21|+0.39|0.54|0.3707|
+|-|          5|         10|        210|     32612867.60|         60|00:00:20|-0.09|0.13|0.9746|
+|=|          4|         10|        210|     32576659.83|         65|00:00:10|-0.03|0.14|0.8974|
+|=|         14|         10|        210|     32627721.14|         70|00:00:10|-0.05|0.10|0.9194|
+|=|          3|         10|        210|     32618057.38|         75|00:00:10|-0.05|0.08|0.9459|
+|=|         16|         10|        424|     32642611.78|         80|00:00:10|-0.06|0.06|0.9582|
+|=|          8|         10|        424|     32642239.50|         85|00:00:10|-0.04|0.07|0.9324|
+|=|         12|         10|        210|     32641033.73|         90|00:00:10|-0.04|0.06|0.9367|
+|=|          2|         10|        424|     32641215.33|         95|00:00:10|-0.05|0.04|0.9395|
+|=|          7|         10|        210|     32607341.92|        100|00:00:10|-0.02|0.06|0.9219|
+|=|          9|         10|        424|     32617981.36|        105|00:00:10|-0.01|0.07|0.9112|
+|=|          1|         10|        424|     32632188.27|        110|00:00:10|+0.00|0.07|0.9030|
+|=|         10|         10|        424|     32646274.75|        115|00:00:10|+0.00|0.07|0.9023|
+|=|         13|         10|        424|     32631250.29|        120|00:00:10|+0.01|0.07|0.8935|
+|=|         18|         10|        424|     32628991.94|        130|00:00:20|+0.02|0.08|0.8825|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         424    mean value:      32628991.94
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+424  424       acs           3   3.8 5.04 0.45   63 0.25      NA          NA
+    nnls dlb .PARENT.
+424   12   1      365
+
+# 2025-05-13 13:40:17 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA   12
+442       acs           3  3.98 4.28 0.53   66 0.04      NA          NA   13
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+439       acs           3  4.16 6.10 0.55   68 0.33      NA          NA   16
+317       acs           3  4.00 5.30 0.49   65 0.39      NA          NA   12
+    dlb
+424   1
+442   1
+210   1
+439   1
+317   1
+# 2025-05-13 13:40:17 -04: Iteration 8 of 8
+# experimentsUsed: 2680
+# remainingBudget: 70
+# currentBudget: 70
+# nbConfigurations: 8
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         19|          8|        424|     32633894.00|          8|00:00:10|   NA|  NA|    NA|
+|x|         16|          8|        424|     32710636.00|         11|00:00:10|+0.17|0.58|0.4959|
+|x|         14|          8|        424|     32783177.67|         14|00:00:10|+0.29|0.53|0.3067|
+|x|          9|          8|        424|     32761213.25|         17|00:00:10|+0.33|0.50|0.2515|
+|-|         13|          6|        424|     32687142.40|         20|00:00:10|+0.01|0.20|0.8717|
+|=|          4|          6|        424|     32644233.67|         21|00:00:10|-0.12|0.07|0.9599|
+|=|         10|          6|        424|     32674710.57|         22|00:00:10|-0.10|0.06|0.9264|
+|=|         12|          6|        424|     32677574.50|         23|00:00:10|-0.11|0.03|0.9344|
+|=|          2|          6|        424|     32666129.22|         24|00:00:10|-0.08|0.04|0.9165|
+|=|         11|          6|        442|     32667507.80|         25|00:00:10|-0.08|0.03|0.9124|
+|=|          6|          6|        424|     32655952.45|         26|00:00:10|-0.09|0.01|0.9140|
+|=|          5|          6|        424|     32659473.42|         27|00:00:10|-0.07|0.02|0.8950|
+|=|          7|          6|        424|     32628885.85|         28|00:00:10|-0.07|0.01|0.8909|
+|=|          1|          6|        439|     32634356.43|         29|00:00:10|-0.05|0.02|0.8817|
+|=|         18|          6|        439|     32629155.07|         30|00:00:10|-0.05|0.02|0.8753|
+|=|          3|          6|        439|     32619601.44|         31|00:00:10|-0.04|0.02|0.8665|
+|=|          8|          6|        439|     32623648.71|         32|00:00:10|-0.05|0.01|0.8772|
+|=|         15|          6|        424|     32640134.89|         33|00:00:10|-0.05|0.00|0.8782|
+|=|         17|          6|        424|     32629249.95|         34|00:00:10|-0.05|0.01|0.8764|
+|=|         20|          6|        424|     32639284.90|         40|00:00:10|-0.04|0.01|0.8717|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         424    mean value:      32639284.90
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+424  424       acs           3   3.8 5.04 0.45   63 0.25      NA          NA
+    nnls dlb .PARENT.
+424   12   1      365
+
+# 2025-05-13 13:43:46 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA   12
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+442       acs           3  3.98 4.28 0.53   66 0.04      NA          NA   13
+439       acs           3  4.16 6.10 0.55   68 0.33      NA          NA   16
+448       acs           3  3.58 6.41 0.65   62 0.03      NA          NA   14
+    dlb
+424   1
+210   1
+442   1
+439   1
+448   1
+# 2025-05-13 13:43:46 -04: Iteration 9 of 9
+# experimentsUsed: 2720
+# remainingBudget: 30
+# currentBudget: 30
+# nbConfigurations: 6
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         21|          6|        451|     32861959.00|          6|00:00:10|   NA|  NA|    NA|
+|x|         11|          6|        439|     32764114.50|          7|00:00:10|-0.03|0.49|1.1958|
+|x|         15|          6|        210|     32777389.00|          8|00:00:10|+0.05|0.37|0.9326|
+|x|          4|          6|        210|     32681947.00|          9|00:00:10|-0.09|0.19|0.8732|
+|=|          3|          6|        424|     32669668.00|         10|00:00:10|-0.06|0.15|0.9672|
+|=|          6|          6|        210|     32628096.67|         11|00:00:10|-0.04|0.13|0.9103|
+|=|          7|          6|        210|     32571677.71|         12|00:00:10|-0.02|0.12|0.8434|
+|=|          2|          6|        210|     32576581.75|         13|00:00:10|-0.04|0.09|0.8165|
+|=|          9|          6|        424|     32599505.44|         14|00:00:10|-0.01|0.10|0.8274|
+|=|         16|          6|        424|     32618292.70|         15|00:00:10|+0.01|0.11|0.8217|
+|=|         14|          6|        424|     32646471.64|         16|00:00:10|-0.05|0.05|0.8666|
+|=|         10|          6|        424|     32664063.33|         17|00:00:10|-0.05|0.04|0.8593|
+|=|         13|          6|        424|     32643047.62|         18|00:00:10|-0.04|0.04|0.8573|
+|=|         18|          6|        424|     32639301.36|         19|00:00:10|-0.02|0.05|0.8409|
+|=|         17|          6|        424|     32625569.33|         20|00:00:10|-0.01|0.06|0.8379|
+|=|          1|          6|        424|     32638414.06|         21|00:00:10|-0.01|0.05|0.8467|
+|=|          5|          6|        424|     32641931.12|         22|00:00:10|-0.01|0.05|0.8433|
+|=|         12|          6|        424|     32645025.06|         23|00:00:10|-0.02|0.04|0.8514|
+|=|          8|          6|        424|     32644702.11|         24|00:00:10|-0.03|0.02|0.8599|
+|=|         20|          6|        424|     32653964.45|         25|00:00:10|-0.04|0.01|0.8627|
+|=|         19|          6|        424|     32653008.71|         26|00:00:10|-0.04|0.01|0.8655|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         424    mean value:      32653008.71
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+424  424       acs           3   3.8 5.04 0.45   63 0.25      NA          NA
+    nnls dlb .PARENT.
+424   12   1      365
+
+# 2025-05-13 13:47:25 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA   12
+442       acs           3  3.98 4.28 0.53   66 0.04      NA          NA   13
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+439       acs           3  4.16 6.10 0.55   68 0.33      NA          NA   16
+448       acs           3  3.58 6.41 0.65   62 0.03      NA          NA   14
+    dlb
+424   1
+442   1
+210   1
+439   1
+448   1
+# 2025-05-13 13:47:25 -04: Stopped because there is not enough budget left to race more than the minimum (5).
+# You may either increase the budget or set 'minNbSurvival' to a lower value.
+# Iteration: 10
+# nbIterations: 10
+# experimentsUsed: 2746
+# timeUsed: 0
+# remainingBudget: 4
+# currentBudget: 4
+# number of elites: 5
+# nbConfigurations: 5
+# Total CPU user time: 29810.92, CPU sys time: 226.635, Wall-clock time: 4561.739
+# 2025-05-13 13:47:25 -04: Starting post-selection:
+# Configurations selected: 424, 442, 210, 439.
+# Pending instances: 0, 0, 0, 0.
+# 2025-05-13 13:47:25 -04: seed: 909090909
+# Configurations: 4
+# Available experiments: 4
+# minSurvival: 1
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|.|         11|          4|        439|     32583419.00|          0|00:00:00|   NA|  NA|    NA|
+|.|         17|          4|        439|     32540038.00|          0|00:00:00|-0.80|0.10|1.3073|
+|.|          1|          4|        439|     32613696.33|          0|00:00:00|-0.40|0.07|1.0395|
+|.|          8|          4|        439|     32632373.50|          0|00:00:00|-0.30|0.03|0.9061|
+|.|          7|          4|        439|     32553490.60|          0|00:00:00|-0.20|0.04|0.8328|
+|.|          6|          4|        439|     32547831.00|          0|00:00:00|-0.11|0.08|0.7831|
+|.|         19|          4|        439|     32566505.43|          0|00:00:00|-0.08|0.08|0.7945|
+|.|         12|          4|        439|     32581844.12|          0|00:00:00|-0.01|0.12|0.7407|
+|.|         15|          4|        439|     32610079.56|          0|00:00:00|+0.02|0.13|0.7035|
+|.|         10|          4|        439|     32636911.20|          0|00:00:00|-0.02|0.08|0.7309|
+|.|         16|          4|        439|     32649438.64|          0|00:00:00|-0.07|0.03|0.7770|
+|.|         21|          4|        439|     32674052.92|          0|00:00:00|-0.08|0.01|0.7864|
+|.|          2|          4|        439|     32665175.69|          0|00:00:00|-0.08|0.00|0.8032|
+|.|          5|          4|        439|     32668117.93|          0|00:00:00|-0.07|0.01|0.7989|
+|.|          4|          4|        439|     32651500.60|          0|00:00:00|-0.06|0.01|0.7882|
+|.|         18|          4|        439|     32645552.81|          0|00:00:00|-0.06|0.01|0.7781|
+|.|         20|          4|        439|     32655167.47|          0|00:00:00|-0.05|0.01|0.7699|
+|.|         14|          4|        439|     32671466.61|          0|00:00:00|-0.05|0.01|0.7770|
+|.|          3|          4|        439|     32661194.53|          0|00:00:00|-0.05|0.00|0.7847|
+|.|          9|          4|        439|     32663585.75|          0|00:00:00|-0.05|0.00|0.7853|
+|.|         13|          4|        439|     32651831.43|          0|00:00:00|-0.05|0.00|0.7869|
+|=|         22|          4|        424|     32633833.91|          4|00:00:10|-0.04|0.01|0.7843|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:         424    mean value:      32633833.91
+Description of the best-so-far configuration:
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+424  424       acs           3   3.8 5.04 0.45   63 0.25      NA          NA
+    nnls dlb .PARENT.
+424   12   1      365
+
+# 2025-05-13 13:47:35 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants nnls
+424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA   12
+442       acs           3  3.98 4.28 0.53   66 0.04      NA          NA   13
+210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA   16
+439       acs           3  4.16 6.10 0.55   68 0.33      NA          NA   16
+    dlb
+424   1
+442   1
+210   1
+439   1
+# Total CPU user time: 29852.59, CPU sys time: 226.967, Wall-clock time: 4572.296
+    .ID. algorithm localsearch alpha beta  rho ants   q0 rasrank elitistants
+424  424       acs           3  3.80 5.04 0.45   63 0.25      NA          NA
+442  442       acs           3  3.98 4.28 0.53   66 0.04      NA          NA
+210  210       acs           3  3.70 6.37 0.59   66 0.17      NA          NA
+439  439       acs           3  4.16 6.10 0.55   68 0.33      NA          NA
+    nnls dlb .PARENT. .RANK. .WEIGHT.
+424   12   1      365     52      0.4
+442   13   1      410     54      0.3
+210   16   1      161     56      0.2
+439   16   1      317     58      0.1
