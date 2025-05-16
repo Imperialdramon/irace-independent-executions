@@ -13,9 +13,8 @@ def error(message):
 # Path to the irace executable
 EXE = "../../../../../Code/mmasqap"
 
-
 # Fixed parameters for ILS
-FIXED_PARAMS = " --trials 1 --iterations 1 --evaluations 5000" # Por confirmar
+FIXED_PARAMS = " --trials 1 --iterations 1 --evaluations 5000 "
 
 # Ensure sufficient arguments are provided
 if len(sys.argv) < 5:

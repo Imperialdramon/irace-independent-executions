@@ -1370,7 +1370,7 @@ void check_options(int argc, char *argv[]) {
 	    {"rho",         1, 0, 'e'},
 	    {"time",        1, 0, 't'},
 	    {"iterations",  1, 0, 'j'},
-      {"evaluations", 1, 0, 'ev'},
+      {"evaluations", 1, 0, 'v'},
 	    {"trials",      1, 0, 'r'},
 	    {"optimal",     1, 0, 'o'},
 	    {"seed",        1, 0, 's'},
@@ -1378,8 +1378,8 @@ void check_options(int argc, char *argv[]) {
 	    {0,             0, 0,  0 }
 	};
     
-	opt = getopt_long(argc, argv, "t:r:l:e:i:j:h:m:o:s:ev",
-			  long_options, &option_index);
+	opt = getopt_long(argc, argv, "t:r:l:e:i:j:h:m:o:s:v",
+    long_options, &option_index);
 	if (opt == -1)
 	    break;
     
@@ -1436,9 +1436,10 @@ void check_options(int argc, char *argv[]) {
 		fprintf(stderr,"No more help yet, sorry.\n"), exit(1);
 		break;
       
-      case 'ev':
+      case 'v':
     max_evaluation_function_calls = atol(optarg);
-    checkOutOfRange(max_evaluation_function_calls,1,100000,"ev (evaluations)");
+    checkOutOfRange(max_evaluation_function_calls,1,100000,"v (evaluations)");
+    break;
 
 	    default:
 		fprintf(stderr,"Error: Confused by input... %ld\n",opt), exit(1);
