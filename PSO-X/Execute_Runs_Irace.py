@@ -33,16 +33,16 @@ def execute_scenario(path: str, seed: int, id_scenario: int, parallel: int = 1):
 directories = [
     ['Scenarios/E1-BL-Mixed-N/Base', 'Scenarios/E1-BL-Mixed-N/Runs', 'E1-BL-Mixed-N'],
     ['Scenarios/E2-BL-Mixed-SR/Base', 'Scenarios/E2-BL-Mixed-SR/Runs', 'E2-BL-Mixed-SR'],
-    ['Scenarios/E3-BH-Mixed-N/Base', 'Scenarios/E3-BH-Mixed-N/Runs', 'E3-BH-Mixed-N'],
-    ['Scenarios/E4-BH-Mixed-SR/Base', 'Scenarios/E4-BH-Mixed-SR/Runs', 'E4-BH-Mixed-SR'],
-    ['Scenarios/E5-BL-Multimodal-N/Base', 'Scenarios/E5-BL-Multimodal-N/Runs', 'E5-BL-Multimodal-N'],
-    ['Scenarios/E6-BL-Multimodal-SR/Base', 'Scenarios/E6-BL-Multimodal-SR/Runs', 'E6-BL-Multimodal-SR'],
-    ['Scenarios/E7-BH-Multimodal-N/Base', 'Scenarios/E7-BH-Multimodal-N/Runs', 'E7-BH-Multimodal-N'],
-    ['Scenarios/E8-BH-Multimodal-SR/Base', 'Scenarios/E8-BH-Multimodal-SR/Runs', 'E8-BH-Multimodal-SR'],
-    ['Scenarios/E9-BL-Unimodal-N/Base', 'Scenarios/E9-BL-Unimodal-N/Runs', 'E9-BL-Unimodal-N'],
-    ['Scenarios/E10-BL-Unimodal-SR/Base', 'Scenarios/E10-BL-Unimodal-SR/Runs', 'E10-BL-Unimodal-SR'],
-    ['Scenarios/E11-BH-Unimodal-N/Base', 'Scenarios/E11-BH-Unimodal-N/Runs', 'E11-BH-Unimodal-N'],
-    ['Scenarios/E12-BH-Unimodal-SR/Base', 'Scenarios/E12-BH-Unimodal-SR/Runs', 'E12-BH-Unimodal-SR'],
+    # ['Scenarios/E3-BH-Mixed-N/Base', 'Scenarios/E3-BH-Mixed-N/Runs', 'E3-BH-Mixed-N'],
+    # ['Scenarios/E4-BH-Mixed-SR/Base', 'Scenarios/E4-BH-Mixed-SR/Runs', 'E4-BH-Mixed-SR'],
+    # ['Scenarios/E5-BL-Multimodal-N/Base', 'Scenarios/E5-BL-Multimodal-N/Runs', 'E5-BL-Multimodal-N'],
+    # ['Scenarios/E6-BL-Multimodal-SR/Base', 'Scenarios/E6-BL-Multimodal-SR/Runs', 'E6-BL-Multimodal-SR'],
+    # ['Scenarios/E7-BH-Multimodal-N/Base', 'Scenarios/E7-BH-Multimodal-N/Runs', 'E7-BH-Multimodal-N'],
+    # ['Scenarios/E8-BH-Multimodal-SR/Base', 'Scenarios/E8-BH-Multimodal-SR/Runs', 'E8-BH-Multimodal-SR'],
+    # ['Scenarios/E9-BL-Unimodal-N/Base', 'Scenarios/E9-BL-Unimodal-N/Runs', 'E9-BL-Unimodal-N'],
+    # ['Scenarios/E10-BL-Unimodal-SR/Base', 'Scenarios/E10-BL-Unimodal-SR/Runs', 'E10-BL-Unimodal-SR'],
+    # ['Scenarios/E11-BH-Unimodal-N/Base', 'Scenarios/E11-BH-Unimodal-N/Runs', 'E11-BH-Unimodal-N'],
+    # ['Scenarios/E12-BH-Unimodal-SR/Base', 'Scenarios/E12-BH-Unimodal-SR/Runs', 'E12-BH-Unimodal-SR'],
 ]
 
 # Random seeds for each combination

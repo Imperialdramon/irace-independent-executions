@@ -19,4 +19,4 @@ trainInstancesDir = ""
 ## File that contains a list of training instances and optionally
 ## additional parameters for them. If trainInstancesDir is provided, irace
 ## will search for the files in this folder.
-trainInstancesFile = "../../../../TrainInstances/train_ALL_hyb.txt"
+trainInstancesFile = "../../../../Instances/train_ALL_hyb.txt"
