@@ -31,19 +31,28 @@ def execute_scenario(path: str, seed: int, id_scenario: int, parallel: int = 1):
 
 # Directories for base scenarios, destination and scenario names
 directories = [
-    ['Scenarios/E1-BL-Mixed-N/Base', 'Scenarios/E1-BL-Mixed-N/Runs', 'E1-BL-Mixed-N'],
-    ['Scenarios/E2-BL-Mixed-SR/Base', 'Scenarios/E2-BL-Mixed-SR/Runs', 'E2-BL-Mixed-SR'],
+    # ['Scenarios/E1-BL-Mixed-N/Base', 'Scenarios/E1-BL-Mixed-N/Runs', 'E1-BL-Mixed-N'],
+    # ['Scenarios/E2-BL-Mixed-SR/Base', 'Scenarios/E2-BL-Mixed-SR/Runs', 'E2-BL-Mixed-SR'],
     # ['Scenarios/E3-BH-Mixed-N/Base', 'Scenarios/E3-BH-Mixed-N/Runs', 'E3-BH-Mixed-N'],
     # ['Scenarios/E4-BH-Mixed-SR/Base', 'Scenarios/E4-BH-Mixed-SR/Runs', 'E4-BH-Mixed-SR'],
     # ['Scenarios/E5-BL-Multimodal-N/Base', 'Scenarios/E5-BL-Multimodal-N/Runs', 'E5-BL-Multimodal-N'],
+    # E6: Problema con 4040404040
     # ['Scenarios/E6-BL-Multimodal-SR/Base', 'Scenarios/E6-BL-Multimodal-SR/Runs', 'E6-BL-Multimodal-SR'],
+    # E7: Problema con 11235813
     # ['Scenarios/E7-BH-Multimodal-N/Base', 'Scenarios/E7-BH-Multimodal-N/Runs', 'E7-BH-Multimodal-N'],
+    # E8: Problema con 11235813
     # ['Scenarios/E8-BH-Multimodal-SR/Base', 'Scenarios/E8-BH-Multimodal-SR/Runs', 'E8-BH-Multimodal-SR'],
+    # E9: Problema con 20250512
     # ['Scenarios/E9-BL-Unimodal-N/Base', 'Scenarios/E9-BL-Unimodal-N/Runs', 'E9-BL-Unimodal-N'],
-    # ['Scenarios/E10-BL-Unimodal-SR/Base', 'Scenarios/E10-BL-Unimodal-SR/Runs', 'E10-BL-Unimodal-SR'],
+    # E10: Problema con 20250512
+    #['Scenarios/E10-BL-Unimodal-SR/Base', 'Scenarios/E10-BL-Unimodal-SR/Runs', 'E10-BL-Unimodal-SR'],
+    # E11: Problema con 42, 8675309, 666999000
     # ['Scenarios/E11-BH-Unimodal-N/Base', 'Scenarios/E11-BH-Unimodal-N/Runs', 'E11-BH-Unimodal-N'],
+    # E12: Problema con 42, 8675309, 666999000
     # ['Scenarios/E12-BH-Unimodal-SR/Base', 'Scenarios/E12-BH-Unimodal-SR/Runs', 'E12-BH-Unimodal-SR'],
 ]
+
+# Error mayormente en semilla ejecutada como 16 (11235813)
 
 # Random seeds for each combination
 seeds = [
@@ -74,8 +83,8 @@ for base_dir, dest_dir, scenary_type in directories:
 
 # Total number of scenarios to run
 N = len(runs_data)  # Total number of scenarios
-K = 2           # Maximum number of simultaneous executions
-parallel = 8    # Number of threads for each scenario
+K = 1           # Maximum number of simultaneous executions
+parallel = 10    # Number of threads for each scenario
 
 print(f"Total number of scenarios: {N}\n")
 print(f"Maximum number of simultaneous executions: {K}\n")
