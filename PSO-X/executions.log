@@ -1,5 +1,5 @@
 nohup: ignoring input
-Total number of scenarios: 20
+Total number of scenarios: 6
 
 Maximum number of simultaneous executions: 1
 
@@ -7,105 +7,23 @@ Number of threads for each scenario: 10
 
 Executing scenarios...
 
-Scenary 1 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_839201, seed=839201)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_839201 completed (seed=839201, run_id=1)
+Scenary 1 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_731073107, seed=731073107)
+Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_731073107 completed (seed=731073107, run_id=1)
 
-Scenary 2 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_198347562, seed=198347562)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_198347562 completed (seed=198347562, run_id=2)
+Scenary 2 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_88337744, seed=88337744)
+Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_88337744 completed (seed=88337744, run_id=2)
 
-Scenary 3 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_2314, seed=2314)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_2314 completed (seed=2314, run_id=3)
+Scenary 3 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_20240617, seed=20240617)
+Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_20240617 completed (seed=20240617, run_id=3)
 
-Scenary 4 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20250512, seed=20250512)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20250512 completed (seed=20250512, run_id=4)
+Scenary 1 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_731073107, seed=731073107)
+Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_731073107 completed (seed=731073107, run_id=1)
 
-Error : == irace == running command ''/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42/target-runner' 263 11 1996950511 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.31 --phi2 1.4 --inertia 0.24 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42/target-runner 263 11 1996950511 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.31 --phi2 1.4 --inertia 0.24
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42/target-runner: line 45: 4047781 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 25 may 2025 22:18:02 UTC: /home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42/target-runner: error: c263-11-1996950511.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42/Results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Error: == irace == A child process triggered a fatal error
-In addition: Warning message:
-In parallel::mclapply(experiments, exec_target_runner, mc.preschedule = !scenario$loadBalancing,  :
-  1 function calls resulted in an error
-Execution halted
-Scenary 5 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42, seed=42)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_42 completed (seed=42, run_id=5)
+Scenary 2 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_88337744, seed=88337744)
+Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_88337744 completed (seed=88337744, run_id=2)
 
-Warning message:
-In checkScenario(scenario) : NAs introduced by coercion to integer range
-Scenary 6 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_9876543210, seed=9876543210)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_9876543210 completed (seed=9876543210, run_id=6)
-
-Scenary 7 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_31415926, seed=31415926)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_31415926 completed (seed=31415926, run_id=7)
-
-Scenary 8 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_123456789, seed=123456789)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_123456789 completed (seed=123456789, run_id=8)
-
-Error : == irace == running command ''/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309/target-runner' 152 6 2077948886 --competition 1 --problem 0 --dimensions 30  --particles 13 --topology 6 --modInfluence 0 --branching 13 --phi1 2.16 --phi2 1.14 --inertia 0.25 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309/target-runner 152 6 2077948886 --competition 1 --problem 0 --dimensions 30  --particles 13 --topology 6 --modInfluence 0 --branching 13 --phi1 2.16 --phi2 1.14 --inertia 0.25
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309/target-runner: line 45: 4176558 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 25 may 2025 22:59:16 UTC: /home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309/target-runner: error: c152-6-2077948886.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309/Results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Error: == irace == A child process triggered a fatal error
-In addition: Warning message:
-In parallel::mclapply(experiments, exec_target_runner, mc.preschedule = !scenario$loadBalancing,  :
-  1 function calls resulted in an error
-Execution halted
-Scenary 9 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309, seed=8675309)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_8675309 completed (seed=8675309, run_id=9)
-
-Warning message:
-In checkScenario(scenario) : NAs introduced by coercion to integer range
-Scenary 10 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_4040404040, seed=4040404040)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_4040404040 completed (seed=4040404040, run_id=10)
-
-Scenary 11 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_27182818, seed=27182818)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_27182818 completed (seed=27182818, run_id=11)
-
-Error : == irace == running command ''/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000/target-runner' 106 11 363352601 --competition 2 --problem 6 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.2 --phi2 2.25 --inertia 0.35 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000/target-runner 106 11 363352601 --competition 2 --problem 6 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.2 --phi2 2.25 --inertia 0.35
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000/target-runner: line 45: 64767 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 25 may 2025 23:30:15 UTC: /home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000/target-runner: error: c106-11-363352601.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-independent-executions/PSO-X/Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000/Results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Error: == irace == A child process triggered a fatal error
-In addition: Warning message:
-In parallel::mclapply(experiments, exec_target_runner, mc.preschedule = !scenario$loadBalancing,  :
-  1 function calls resulted in an error
-Execution halted
-Scenary 12 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000, seed=666999000)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_666999000 completed (seed=666999000, run_id=12)
-
-Scenary 13 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_909090909, seed=909090909)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_909090909 completed (seed=909090909, run_id=13)
-
-Scenary 14 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_1357924680, seed=1357924680)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_1357924680 completed (seed=1357924680, run_id=14)
-
-Scenary 15 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_777000777, seed=777000777)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_777000777 completed (seed=777000777, run_id=15)
-
-Scenary 16 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_11235813, seed=11235813)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_11235813 completed (seed=11235813, run_id=16)
-
-Scenary 17 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_600613007, seed=600613007)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_600613007 completed (seed=600613007, run_id=17)
-
-Scenary 18 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_246813579, seed=246813579)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_246813579 completed (seed=246813579, run_id=18)
-
-Scenary 19 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_999888777, seed=999888777)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_999888777 completed (seed=999888777, run_id=19)
-
-Scenary 20 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_555666333, seed=555666333)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_555666333 completed (seed=555666333, run_id=20)
+Scenary 3 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20240617, seed=20240617)
+Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20240617 completed (seed=20240617, run_id=3)
 
 All scenarios executed successfully.
 

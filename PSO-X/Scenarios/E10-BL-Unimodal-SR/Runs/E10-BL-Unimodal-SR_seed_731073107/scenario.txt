@@ -19,10 +19,10 @@ trainInstancesDir = ""
 ## File that contains a list of training instances and optionally
 ## additional parameters for them. If trainInstancesDir is provided, irace
 ## will search for the files in this folder.
-trainInstancesFile = "../../../../Instances/train_ALL_mul.txt"
+trainInstancesFile = "../../../../Instances/train_ALL_uni.txt"
 
 ## Seed
-seed=4040404040
+seed=731073107
 
 ## Scenario ID
 #id_scenario=1
