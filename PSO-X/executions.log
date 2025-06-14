@@ -1,5 +1,5 @@
 nohup: ignoring input
-Total number of scenarios: 6
+Total number of scenarios: 2
 
 Maximum number of simultaneous executions: 1
 
@@ -7,23 +7,11 @@ Number of threads for each scenario: 10
 
 Executing scenarios...
 
-Scenary 1 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_731073107, seed=731073107)
-Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_731073107 completed (seed=731073107, run_id=1)
+Scenary 1 ready (path=Scenarios/E9-BL-Unimodal-N/Runs/E9-BL-Unimodal-N_seed_731073107, seed=731073107)
+Scenario Scenarios/E9-BL-Unimodal-N/Runs/E9-BL-Unimodal-N_seed_731073107 completed (seed=731073107, run_id=1)
 
-Scenary 2 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_88337744, seed=88337744)
-Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_88337744 completed (seed=88337744, run_id=2)
-
-Scenary 3 ready (path=Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_20240617, seed=20240617)
-Scenario Scenarios/E11-BH-Unimodal-N/Runs/E11-BH-Unimodal-N_seed_20240617 completed (seed=20240617, run_id=3)
-
-Scenary 1 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_731073107, seed=731073107)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_731073107 completed (seed=731073107, run_id=1)
-
-Scenary 2 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_88337744, seed=88337744)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_88337744 completed (seed=88337744, run_id=2)
-
-Scenary 3 ready (path=Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20240617, seed=20240617)
-Scenario Scenarios/E12-BH-Unimodal-SR/Runs/E12-BH-Unimodal-SR_seed_20240617 completed (seed=20240617, run_id=3)
+Scenary 1 ready (path=Scenarios/E10-BL-Unimodal-SR/Runs/E10-BL-Unimodal-SR_seed_731073107, seed=731073107)
+Scenario Scenarios/E10-BL-Unimodal-SR/Runs/E10-BL-Unimodal-SR_seed_731073107 completed (seed=731073107, run_id=1)
 
 All scenarios executed successfully.
 

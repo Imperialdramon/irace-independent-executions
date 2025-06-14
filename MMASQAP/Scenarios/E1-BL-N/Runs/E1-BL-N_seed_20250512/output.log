@@ -1,0 +1,221 @@
+# 2025-06-08 14:08:54 -04: Reading parameter file '/home/dianag/PruebasPablo/irace-independent-executions/MMASQAP/Scenarios/E1-BL-N/Runs/E1-BL-N_seed_20250512/parameters.txt'.
+# 2025-06-08 14:08:54 -04: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 3
+# nbParameters: 3
+# seed: 20250512
+# confidence level: 0.95
+# budget: 750
+# mu: 5
+# deterministic: FALSE
+
+# 2025-06-08 14:08:55 -04: Iteration 1 of 3
+# experimentsUsed: 0
+# remainingBudget: 750
+# currentBudget: 250
+# nbConfigurations: 41
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         41|          7|     479476.0000|         41|00:00:16|   NA|  NA|    NA|
+|x|          2|         41|         11|     432098.0000|         82|00:00:15|+0.39|0.69|0.2925|
+|x|          3|         41|         32|     2732446.667|        123|00:00:14|+0.28|0.52|0.4884|
+|x|          4|         41|         32|     2187983.000|        164|00:00:15|+0.26|0.45|0.4478|
+|-|          5|         21|         32|     3236901.600|        205|00:00:14|-0.05|0.16|0.9688|
+|=|          6|         21|         32|     3940987.667|        226|00:00:09|+0.07|0.22|0.8575|
+|-|          7|          9|          5|     4413192.000|        247|00:00:09|+0.05|0.18|0.7685|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           5    mean value:      4413192.000
+Description of the best-so-far configuration:
+  .ID. localsearch  rho ants .PARENT.
+5    5           3 0.01   12       NA
+
+# 2025-06-08 14:10:31 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   localsearch  rho ants
+5            3 0.01   12
+18           3 0.48   40
+32           3 0.54   96
+# 2025-06-08 14:10:31 -04: Iteration 2 of 3
+# experimentsUsed: 247
+# remainingBudget: 503
+# currentBudget: 251
+# nbConfigurations: 34
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          8|         34|         18|     7352650.000|         34|00:00:17|   NA|  NA|    NA|
+|x|          3|         34|         58|     7331203.000|         65|00:00:14|+0.85|0.93|0.2080|
+|x|          2|         34|         50|     5020742.667|         96|00:00:16|+0.17|0.45|0.7858|
+|x|          4|         34|         50|     3903165.000|        127|00:00:15|+0.13|0.35|0.7838|
+|-|          7|         20|         50|     4582279.200|        158|00:00:14|-0.09|0.13|0.9335|
+|=|          5|         20|         50|     5054559.000|        175|00:00:09|-0.01|0.16|0.8463|
+|=|          1|         20|         50|     4401085.143|        192|00:00:10|-0.01|0.13|0.8590|
+|=|          6|         20|         50|     4782045.750|        209|00:00:10|+0.02|0.14|0.8150|
+|=|          9|         20|         50|     5037191.778|        229|00:00:14|+0.06|0.17|0.7571|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          50    mean value:      5037191.778
+Description of the best-so-far configuration:
+   .ID. localsearch  rho ants .PARENT.
+50   50           3 0.01    6        5
+
+# 2025-06-08 14:12:34 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   localsearch  rho ants
+50           3 0.01    6
+72           3 0.07   12
+44           3 0.14    5
+# 2025-06-08 14:12:34 -04: Iteration 3 of 3
+# experimentsUsed: 476
+# remainingBudget: 274
+# currentBudget: 274
+# nbConfigurations: 30
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         10|         30|         77|     7452346.000|         30|00:00:18|   NA|  NA|    NA|
+|x|          5|         30|         88|     7432042.000|         57|00:00:14|+0.53|0.76|0.1468|
+|x|          6|         30|         44|     7436750.667|         84|00:00:14|+0.52|0.68|0.1107|
+|x|          7|         30|         97|     7400093.500|        111|00:00:15|+0.54|0.65|0.1364|
+|-|          3|         19|         44|     7385779.200|        138|00:00:14|-0.12|0.10|1.0722|
+|=|          8|         19|         81|     7382026.333|        154|00:00:10|-0.10|0.08|1.0628|
+|=|          4|         19|         81|     6405939.714|        170|00:00:09|-0.06|0.09|1.0440|
+|=|          9|         19|         97|     6487581.000|        186|00:00:09|-0.05|0.08|1.0156|
+|=|          1|         19|         97|     5821039.333|        202|00:00:09|-0.03|0.08|0.9992|
+|=|          2|         19|         97|     5277501.600|        218|00:00:09|-0.02|0.09|0.9784|
+|=|         11|         19|         97|     5468630.000|        237|00:00:13|+0.00|0.09|0.9572|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          97    mean value:      5468630.000
+Description of the best-so-far configuration:
+   .ID. localsearch  rho ants .PARENT.
+97   97           3 0.02    4       50
+
+# 2025-06-08 14:14:56 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   localsearch  rho ants
+97           3 0.02    4
+80           3 0.06    3
+76           3 0.16    5
+# 2025-06-08 14:14:56 -04: Iteration 4 of 4
+# experimentsUsed: 713
+# remainingBudget: 37
+# currentBudget: 37
+# nbConfigurations: 5
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|         12|          5|        101|     307482.0000|          5|00:00:04|   NA|  NA|    NA|
+|x|          8|          5|         76|     3829806.000|          7|00:00:05|+0.80|0.90|0.1651|
+|x|          9|          5|        101|     4906281.333|          9|00:00:04|+0.27|0.51|0.7846|
+|x|          3|          5|        101|     5515261.500|         11|00:00:04|+0.05|0.29|0.8147|
+|=|          1|          5|        101|     4507908.000|         13|00:00:04|+0.15|0.32|0.7089|
+|=|          5|          5|        101|     4991553.000|         15|00:00:04|+0.19|0.32|0.6257|
+|=|          2|          5|        101|     4332924.000|         17|00:00:05|+0.23|0.34|0.6090|
+|=|          7|          5|         76|     4704739.500|         19|00:00:04|+0.16|0.27|0.6839|
+|=|         11|          5|         80|     5004587.778|         21|00:00:04|+0.05|0.16|0.7633|
+|=|          6|          5|        101|     5247073.200|         23|00:00:04|+0.10|0.19|0.7276|
+|=|          4|          5|        101|     4819697.091|         25|00:00:04|+0.13|0.21|0.6829|
+|-|         10|          4|        101|     5041212.667|         27|00:00:04|-0.05|0.04|0.7930|
+|=|         13|          4|        101|     5246028.615|         31|00:00:04|-0.07|0.01|0.8051|
+|=|         14|          4|         97|     4900858.286|         35|00:00:04|-0.07|0.01|0.7982|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          97    mean value:      4900858.286
+Description of the best-so-far configuration:
+   .ID. localsearch  rho ants .PARENT.
+97   97           3 0.02    4       50
+
+# 2025-06-08 14:16:01 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    localsearch  rho ants
+97            3 0.02    4
+101           3 0.08    4
+76            3 0.16    5
+# 2025-06-08 14:16:01 -04: Stopped because there is not enough budget left to race more than the minimum (3).
+# You may either increase the budget or set 'minNbSurvival' to a lower value.
+# Iteration: 5
+# nbIterations: 5
+# experimentsUsed: 748
+# timeUsed: 0
+# remainingBudget: 2
+# currentBudget: 2
+# number of elites: 3
+# nbConfigurations: 3
+# Total CPU user time: 2631.301, CPU sys time: 17.395, Wall-clock time: 426.71
+# 2025-06-08 14:16:01 -04: Starting post-selection:
+# Configurations selected: 97, 101.
+# Pending instances: 0, 0.
+# 2025-06-08 14:16:01 -04: seed: 20250512
+# Configurations: 2
+# Available experiments: 2
+# minSurvival: 1
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|.|          1|          2|        101|     478494.0000|          0|00:00:00|   NA|  NA|    NA|
+|.|         12|          2|        101|     392988.0000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          5|          2|        101|     2731918.000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|         10|          2|        101|     3918409.500|          0|00:00:00|+0.00|0.25|0.5000|
+|.|         13|          2|        101|     4675491.600|          0|00:00:00|-0.20|0.04|0.6000|
+|.|          3|          2|        101|     5119943.333|          0|00:00:00|-0.20|0.00|0.6000|
+|.|         14|          2|        101|     4451955.429|          0|00:00:00|-0.14|0.02|0.5714|
+|.|          8|          2|        101|     4814508.750|          0|00:00:00|-0.14|0.00|0.5714|
+|.|          9|          2|        101|     5063894.444|          0|00:00:00|-0.11|0.01|0.5556|
+|.|          6|          2|        101|     5301160.800|          0|00:00:00|-0.07|0.04|0.5333|
+|.|         11|          2|        101|     5491720.000|          0|00:00:00|-0.09|0.01|0.5455|
+|.|          2|          2|        101|     5065839.167|          0|00:00:00|-0.06|0.03|0.5303|
+|.|          4|          2|        101|     4718154.308|          0|00:00:00|-0.08|0.01|0.5385|
+|.|          7|          2|        101|     4903028.571|          0|00:00:00|-0.08|0.00|0.5385|
+|=|         15|          2|         97|     5074388.000|          2|00:00:04|-0.07|0.00|0.5333|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          97    mean value:      5074388.000
+Description of the best-so-far configuration:
+   .ID. localsearch  rho ants .PARENT.
+97   97           3 0.02    4       50
+
+# 2025-06-08 14:16:06 -04: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+    localsearch  rho ants
+97            3 0.02    4
+101           3 0.08    4
+# Total CPU user time: 2639.996, CPU sys time: 17.449, Wall-clock time: 431.098
+    .ID. localsearch  rho ants .PARENT. .RANK.  .WEIGHT.
+97    97           3 0.02    4       50     22 0.6666667
+101  101           3 0.08    4       97     23 0.3333333
